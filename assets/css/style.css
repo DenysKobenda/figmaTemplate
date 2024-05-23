@@ -639,7 +639,7 @@ footer {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.5); /* Чорний фон з прозорістю */
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .modal-content {
@@ -692,9 +692,7 @@ button[type="submit"]:hover {
   background-color: #555;
 }
 
-/* Стилі для мобільних пристроїв */
 @media (max-width: 768px) {
-  /* Заголовок */
   .header {
     flex-direction: row;
     justify-content: center;
@@ -732,7 +730,6 @@ button[type="submit"]:hover {
     margin-top: 20px;
   }
 
-  /* Секція з інформацією */
   .top-info {
     padding: 20px;
   }
@@ -765,7 +762,6 @@ button[type="submit"]:hover {
     height: auto;
   }
 
-  /* Секція з нагородами */
   .awards-grid {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -794,6 +790,7 @@ button[type="submit"]:hover {
   .testimonials-section {
     flex-direction: column;
     padding-bottom: 50px;
+    margin-left: 0px;
   }
   .testimonial-title {
     margin: 0px;
@@ -811,7 +808,7 @@ button[type="submit"]:hover {
     top: unset;
     transform: unset;
   }
-  /* Секція з вкладками */
+  
   .tabs-section-content {
     flex-direction: column;
     padding: 20px;
@@ -827,7 +824,7 @@ button[type="submit"]:hover {
   .tabs {
     flex-direction: column;
   }
-  /* Footer */
+
   .footer-container {
     flex-direction: column;
     text-align: center;
@@ -860,6 +857,10 @@ button[type="submit"]:hover {
   }
   .title {
     padding-top:150px;
+  }
+    
+    .tabs-section-text {
+    text-align: center;
   }
 }
 
